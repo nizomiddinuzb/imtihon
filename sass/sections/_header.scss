@@ -1,0 +1,124 @@
+header{
+    margin: 0 auto;
+    width: 1111px;
+}
+nav{
+    justify-content: space-between;
+    display: flex;
+    width: 1111px;
+    .nav__ul{
+        display: flex;
+        gap: 41px;
+        text-decoration: none;
+        list-style: none;
+    }
+    .nav__a{
+        color: #333136;
+        font-family: 'Jost', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 14px; /* 100% */
+        letter-spacing: 2px;
+        text-decoration: none;
+    }
+    .nav__a:active{
+        color: #E7816B;
+    }
+}
+.header__div{
+    margin-top: 64px;
+    display: flex;
+    background-color: #E7816B;
+    border-radius: 15px;
+    width: 1111px;
+    height: 640px;
+    flex-shrink: 0;
+    padding-top: 145px;
+    padding-left: 95px;
+    h1{
+        color: #FFF;
+        font-family: Jost;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 48px; /* 100% */
+        font-family: 'Jost', sans-serif;
+        color: #fff;
+    }
+    .div__p{
+        color: #FFF;
+        font-family: Jost;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px; /* 162.5% */
+        margin-top: 11px;
+         font-family: 'Jost', sans-serif;
+        color: #fff;
+    }
+    .div__button{
+        width: 152px;
+        height: 56px;
+        flex-shrink: 0;
+        border-radius: 8px;
+        background: #FFF;
+        border: 0px;
+        cursor: pointer;
+        transition: 0.3s;
+        margin-top: 40px;
+    }
+    .div__button:hover{
+        background-color: #FFAD9B;
+    }
+    .div__button:active{
+        background-color: #1d1c1e;
+    }
+}
+.background-img{
+    border-radius: 640px;
+    margin-top: -140px;
+    padding-right: -30px;
+    width: 640px;
+    height: 640px;
+    background-image: url(../../images/svg/Oval.png);
+    .back__img{
+        width: 281.073px;
+height: 573px;
+flex-shrink: 0;
+margin-left: 200px;
+margin-top: 207px;
+    }
+}
+.section{
+    margin-top: 64px;
+    justify-content: space-between;
+    display: flex;
+    background-color: #E7816B;
+    width: 1111px;
+    height: 480px;
+    border-radius: 15px;
+    .section__p{
+        margin-left: 95px;
+    }
+    h2{
+        margin-top: 135px;
+        color: #FFF;
+        font-family: 'Jost', sans-serif;
+    }
+
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 48px; /* 100% */
+    .section_p{
+    color: white;
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+    
+}
